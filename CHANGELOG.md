@@ -8,6 +8,11 @@
 - Sắp xếp giỏ hàng theo tên hoặc giá DVD.
 - Tìm DVD theo thể loại bằng `search_by_category()`.
 
+## [1.0.1] - 2026-11-01
+
+### Fixed
+- Tìm tiêu đề không phân biệt hoa thường, `lion` tìm được The Lion King (#21).
+
 ## [1.0.0] - 2026-11-01
 
 ### Added
