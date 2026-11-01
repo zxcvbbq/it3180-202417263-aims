@@ -4,3 +4,4 @@
 
 - MSSV: 202417263
 - Chạy chương trình: `python main.py`
+- Yêu cầu: Python >= 3.10 (thực hành với Python 3.12).
