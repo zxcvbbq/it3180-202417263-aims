@@ -2,6 +2,9 @@
 
 ## [Unreleased]
 
+### Added
+- Sắp xếp giỏ hàng theo tên hoặc giá DVD.
+
 ## [1.0.0] - 2026-11-01
 
 ### Added
