@@ -1,15 +1,18 @@
 # Use case AIMS-mini
 
-```text
-                     +-------- AIMS-mini --------+
-                     |                            |
-Khách hàng ----------|-- (Thêm DVD vào giỏ)       |
-           ----------|-- (Xóa DVD khỏi giỏ)       |
-           ----------|-- (Xem giỏ và tổng tiền)   |
-           ----------|-- (Tìm DVD theo tiêu đề)   |
-                     |                            |
-                     +----------------------------+
+```mermaid
+flowchart LR
+    customer["Khách hàng"]
+    subgraph aims["AIMS-mini"]
+        add([Thêm DVD vào giỏ])
+        remove([Xóa DVD khỏi giỏ])
+        view([Xem giỏ và tổng tiền])
+        search([Tìm DVD theo tiêu đề])
+    end
+    customer --- add
+    customer --- remove
+    customer --- view
+    customer --- search
 ```
 
-Khách hàng chọn DVD, xem giỏ và tìm đĩa theo tên.
 Giỏ hàng có giới hạn 20 DVD.
