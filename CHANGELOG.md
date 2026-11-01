@@ -2,8 +2,11 @@
 
 ## [Unreleased]
 
+## [1.1.0] - 2026-11-01
+
 ### Added
 - Sắp xếp giỏ hàng theo tên hoặc giá DVD.
+- Tìm DVD theo thể loại bằng `search_by_category()`.
 
 ## [1.0.0] - 2026-11-01
 
