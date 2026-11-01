@@ -2,6 +2,11 @@
 
 ## [Unreleased]
 
+## [1.0.1] - 2026-11-01
+
+### Fixed
+- Tìm tiêu đề không phân biệt hoa thường, `lion` tìm được The Lion King (#21).
+
 ## [1.0.0] - 2026-11-01
 
 ### Added
